@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Enter feedback detail to send to the deverloper"
+        android:textSize="31sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_margin="1dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Anne Droid"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/edName"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/edGmail"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:id="@+id/spinner"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_margin="5sp"
+        android:id="@+id/edContent"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you like an email respose?"
+        android:id="@+id/ck"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Send Feedback"
+        android:textStyle="bold"
+        android:layout_margin="5sp"
+        android:background="#E68C07"
+        android:id="@+id/btSend"/>
+    
+        
+        
+
+</LinearLayout>
